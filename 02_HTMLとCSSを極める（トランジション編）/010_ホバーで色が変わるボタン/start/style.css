@@ -1,5 +1,15 @@
 .btn {
-
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 40px;
+    margin: 50px 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: black;
+    color: white;
 }
 #container {
     text-align: center;
