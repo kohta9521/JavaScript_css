@@ -10,12 +10,9 @@
   margin: 50px 0;
   font-weight: 600;
   cursor: pointer;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-
-.btn:hover {
-  background-color: black;
-  color: white;
+.btn.float:hover {
+  box-shadow: 14px 12px 11px 4px black;
 }
 /*# sourceMappingURL=style.css.map */

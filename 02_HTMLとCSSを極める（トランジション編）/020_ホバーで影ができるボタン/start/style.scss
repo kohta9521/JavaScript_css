@@ -15,8 +15,9 @@ $cBlack: black;
   cursor: pointer;
   transition: all 0.3s;
 
-  &:hover {
-    background-color: $cBlack;
-    color: $cWhite;
+  &.float {
+    &:hover {
+      box-shadow: 14px 12px 11px 4px $cBlack;
+    }
   }
 }
