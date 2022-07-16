@@ -1,0 +1,2 @@
+#container{position:relative;padding:1rem;background-color:gray;height:4000px}div{font-weight:600;padding:.5rem;font-size:1.1em;width:150px;height:150px;box-shadow:7px 7px 0 0 #000}.div-1{position:absolute;background:orange;top:0;left:0;z-index:20}.div-2{background:tomato;z-index:30;position:relative}.div-3{position:absolute;z-index:50;top:0;left:0;background:teal;height:1000px}.div-4{position:relative;z-index:10;width:80px;height:80px;background-color:violet;position:-webkit-sticky;position:sticky;top:30px}
+/*# sourceMappingURL=style.min.css.map */
