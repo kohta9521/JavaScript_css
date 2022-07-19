@@ -24,17 +24,17 @@
  * 横方向のレイアウト
  */
 /* インライン要素に対して */
-.parent {
-  text-align: center;
-  letter-spacing: -5px;
-}
-
-.child {
-  display: inline-block;
-}
-
-/* ブロック要素を中央揃え */
 /**
  * 上下方向のレイアウト
  */
+.parent {
+  position: relative;
+}
+
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /*# sourceMappingURL=style.css.map */
