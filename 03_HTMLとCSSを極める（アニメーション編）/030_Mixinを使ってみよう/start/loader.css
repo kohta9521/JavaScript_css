@@ -18,26 +18,22 @@ body {
 
 @-webkit-keyframes sk-bouncedelay {
   from {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     background-color: black;
   }
   to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     background-color: green;
   }
 }
 
 @keyframes sk-bouncedelay {
   from {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     background-color: black;
   }
   to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     background-color: green;
   }
 }
