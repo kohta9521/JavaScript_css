@@ -11,30 +11,35 @@ body {
           animation: sk-bouncedelay 1.4s;
   -webkit-animation-timing-function: ease;
           animation-timing-function: ease;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-  -webkit-animation-iteration-count: 3;
-          animation-iteration-count: 3;
-  animation-direction: alternate-reverse;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes sk-bouncedelay {
-  from {
+  0% {
     transform: scale(0);
+    background-color: black;
   }
-  to {
+  50% {
+    transform: scale(2);
+  }
+  100% {
     transform: scale(1);
+    background-color: greenyellow;
   }
 }
 
 @keyframes sk-bouncedelay {
-  from {
+  0% {
     transform: scale(0);
+    background-color: black;
   }
-  to {
+  50% {
+    transform: scale(2);
+  }
+  100% {
     transform: scale(1);
+    background-color: greenyellow;
   }
 }
 /*# sourceMappingURL=loader.css.map */
