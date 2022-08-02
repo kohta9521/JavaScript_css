@@ -94,4 +94,47 @@
     transform: scale(1);
   }
 }
+.try .rect-spinner {
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  letter-spacing: -2px;
+  margin: 100px auto;
+}
+.try .rect-spinner > div {
+  height: 100%;
+  width: 6px;
+  background-color: #333;
+  display: inline-block;
+  -webkit-animation-name: sk-stretchdelay2;
+          animation-name: sk-stretchdelay2;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@-webkit-keyframes sk-stretchdelay2 {
+  0%, 40%, 100% {
+    transform: scaleY(0.4);
+  }
+  20% {
+    transform: scaleY(1);
+  }
+}
+@keyframes sk-stretchdelay2 {
+  0%, 40%, 100% {
+    transform: scaleY(0.4);
+  }
+  20% {
+    transform: scaleY(1);
+  }
+}
 /*# sourceMappingURL=try.css.map */
