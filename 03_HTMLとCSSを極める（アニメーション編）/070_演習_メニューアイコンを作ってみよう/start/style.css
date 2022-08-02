@@ -1,6 +1,8 @@
 .mobile-menu-icon {
   background-color: transparent;
   border: none;
+  outline: none !important;
+  cursor: pointer;
 }
 .mobile-menu-icon > span {
   background-color: black;
@@ -22,11 +24,13 @@
 }
 .menu-open .mobile-menu-icon > span:nth-child(1) {
   transform: translateY(11px) rotate(135deg);
+  transition-delay: 70ms;
 }
 .menu-open .mobile-menu-icon > span:nth-child(2) {
   transform: translateX(-18px) scale(0);
 }
 .menu-open .mobile-menu-icon > span:nth-child(3) {
   transform: translateY(-11px) rotate(-135deg);
+  transition-delay: 140ms;
 }
 /*# sourceMappingURL=style.css.map */

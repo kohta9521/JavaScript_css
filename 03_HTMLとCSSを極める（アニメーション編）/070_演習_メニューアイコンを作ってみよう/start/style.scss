@@ -3,6 +3,8 @@ $cBlack: black;
 .mobile-menu-icon {
     background-color: transparent;
     border: none;
+    outline: none !important;
+    cursor: pointer;
 
     & > span {
         background-color: $cBlack;
@@ -27,12 +29,14 @@ $cBlack: black;
 
             &:nth-child(1) {
                 transform: translateY(11px) rotate(135deg);
+                transition-delay: 70ms;
             }
             &:nth-child(2) {
                 transform: translateX(-18px) scale(0);
             }
             &:nth-child(3) {
                 transform: translateY(-11px) rotate(-135deg);
+                transition-delay: 140ms;
             }
         }
     }
