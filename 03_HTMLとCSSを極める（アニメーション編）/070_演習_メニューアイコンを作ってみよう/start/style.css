@@ -1,1 +1,15 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.mobile-menu-icon {
+  background-color: transparent;
+  border: none;
+}
+.mobile-menu-icon > span {
+  background-color: black;
+  width: 35px;
+  height: 2px;
+  display: block;
+  margin-bottom: 9px;
+}
+.mobile-menu-icon > span:last-child {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */
