@@ -64,4 +64,41 @@
       }
     }
   }
+
+
+  .rect-spinner {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    letter-spacing: -2px;
+    margin: 100px auto;
+
+    & > div {
+      height: 100%;
+      width: 6px;
+      background-color: #333;
+      display: inline-block;
+      @include animation(
+        $name: sk-stretchdelay2,
+        $duration: 1.2s,
+        $iteration-count: infinite,
+        $timing-function: ease-in-out
+      );
+      @for $i from through 5 {
+        &:nth-child(#{$i}) {
+          animation-delay: -1.3s + $i * 0.1s;
+      }
+    }
+  }
+
+  @keyframes sk-stretchdelay2 {
+    0%,
+    40%,
+    100% {
+      transform: scaleY(0.4);
+    }
+    20% {
+      transform: scaleY(1);
+    }
+  }
 }
