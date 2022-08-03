@@ -68,6 +68,7 @@ body {
   -webkit-animation-delay: 0.36s;
           animation-delay: 0.36s;
 }
+
 @-webkit-keyframes kf-animate-chars {
   0% {
     opacity: 0;
@@ -78,6 +79,7 @@ body {
     transform: translateY(0);
   }
 }
+
 @keyframes kf-animate-chars {
   0% {
     opacity: 0;
