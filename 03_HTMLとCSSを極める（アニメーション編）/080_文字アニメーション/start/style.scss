@@ -29,20 +29,19 @@ body {
             @for $i from 1 through 9 {
                 &:nth-child(#{$i}) {
                     animation-delay: $i  * 0.04s;
+                }   
+        }        }
+    }
+}
+
+        @keyframes kf-animate-chars {
+            0% {
+                opacity: 0;
+                transform: translateY(-50%);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
             }
         }
-    }
-}
-
-@keyframes kf-animate-chars {
-    0% {
-        opacity: 0;
-        transform: translateY(-50%);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-}
