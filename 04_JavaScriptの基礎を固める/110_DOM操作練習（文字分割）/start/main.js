@@ -5,7 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     for(let c of str) {
+        c = c.replace(' ', '&nbsp;')
         concatStr += `<span class="char">${c}</span>`;
     }
+    el.innerHTML = concatStr;
     console.log(concatStr);
 })
