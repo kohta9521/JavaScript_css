@@ -9,4 +9,8 @@ function changeBgColor() {
 }
 btn.addEventListener('click', changeColor);
 btn.addEventListener('click', changeBgColor);
+btn.removeEventListener('click', changeBgColor);
 // btn.removeEventListener('click', hello);
+
+
+btn.onclick = changeColor;
