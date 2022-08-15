@@ -1,11 +1,9 @@
-const hello =  function(name, age) {
-    console.log("Hello " + name + age);
-    return name + age;
+function hello(name) {
+    console.log("Hello " + name);
 }
 
 
+hello("Code Mafia");
+hello("Code Mafia2");
 
 
-hello("Code Mafia", 10);
-const returnVal = hello('code mafia2', 20);
-console.log(returnVal);
