@@ -1,6 +1,13 @@
-const arry = [1, 2, 3, 4, 5, 6, 'moji' , false];
+const arry = [1, 2, 3, 4, 5];
+console.log(arry.length);
 
-array.unshift('new item');
-array.pop('new');
+arry.push('New item');
+console.log(arry) ;
 
-console.log(arry);   
+arry.unshift("first item");
+console.log(arry) ;
+
+
+arry.pop();
+console.log(arry);
+
