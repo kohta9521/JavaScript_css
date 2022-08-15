@@ -1,17 +1,5 @@
-// var, let , const
-let Name = "tom";
-Name = "tim";
-console.log('hello' + Name);
+// vae let const
 
+var name = "Tom";
 
-//Number, String, Boolean, Undefined, Null, Symbol
-
-let variable = 'str';
-console.log(typeof variable);
-variable = 12;
-console.log(typeof variable);
-variable = false;
-console.log(typeof variable);
-variable = undefined;
-console.log(typeof variable);
-
+console.log("Hello" + name);
