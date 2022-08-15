@@ -3,13 +3,20 @@ const cb = function(entries, observer) {
     entries.forEach(entry => {
         if(entry.isIntersecting) {
             console.log('in view');
-            observer.unobserve(entry.target);
-        }else {
+            entry.target.classList.add('inview');
+            // observer.unobserve(entry.target);
+        } else {
             console.log('out view');
+            entry.target.classList.remove('inview');
         }
     });
         
     // alert('intersectiong');
+}
+
+const options = {
+    root: null,
+    tooyMargin: "-300px",
 }
 const io =  new IntersectionObserver(cb);
 io.observe(child);
