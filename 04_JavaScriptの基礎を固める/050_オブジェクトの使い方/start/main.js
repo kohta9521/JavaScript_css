@@ -1,21 +1,30 @@
 const person = {
-    name: ['Code', 'Mafia'],
+    name:  ["Code", "Mafia"],
     age: 32,
-    gender: 'male',
+    gender: "male",
     interests: {
-        sports: 'soccer',
-        music: 'piano'
+        sports: "soccer",
+        music: "piano"
     },
     getFullName: function() {
-        console.log(this.name[0] + this.name[1])
+        console.log(this.name[0] + this.name[1]);
     }
 };
 
+//ドット技法
+person.age = 12;
+
+//ブラケット技法
+person["age"] = 33;
+
+
 console.log(person.interests.sports);
-person['age'];
-person.name;
+console.log(person.age);
 
 person.getFullName();
 
-const s = "hello world";
+const s = "Hello World";
+console.log(s);
+
+
 s.toUpperCase();
