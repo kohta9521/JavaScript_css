@@ -2,34 +2,39 @@ const todos = [
     {
         id: 1,
         title: 'Go to school',
-        completed: true
+        complited: true
     },
     {
         id: 2,
-        title: 'Go to museum',
-        completed: true
+        title: 'Go to museuml',
+        complited: true
     },
     {
         id: 3,
         title: 'Go to shopping',
-        completed: false
+        complited: false
     }
 ]
 
-for (let i = 0; i < todos.length; i++) {
+for(let i = 0; i < todos.length; i ++) {
     let todo = todos[i];
-    if (todo.completed === true) {
+    if (todo.complited == true) {
         console.log(i, todo.title);
     }
 }
 
-for (let i in todos) {
+
+
+for(let i in todos) {
     let todo = todos[i];
-    if (todo.completed === false) {
+    if (todo.complited == true) {
         console.log(i, todo.title);
     }
 }
 
-for (let todo of todos) {
-    console.log(todo)
+for(let i of todos) {
+    let todo = todos[i];
+    if (todo.complited == true) {
+        console.log(i, todo.title);
+    }
 }
