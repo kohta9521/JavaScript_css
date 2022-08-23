@@ -1,19 +1,21 @@
-// function hello(callback) {
-//     console.log(callback);
-//     console.log('hello ' + callback());
+// function hello(callback, lastname) {
+//     console.log('Hello '  + callback(lastname));
 // }
+
 
 // function getName() {
 //     return 'Code Mafia';
 // }
-// function getFirstName() {
-//     return 'Code';
-// }
 
-// hello (() => 'Code');
+// hello(getName);
 
 
-function doSomething(a, b, callback) {
+// hello(function(name) {
+//     return 'Code' + name;
+// }, ' Mafia');
+
+
+function doSomethin(a, b, callback) {
     const result = callback(a, b);
     console.log(result);
 }
@@ -26,5 +28,4 @@ function plus(a, b) {
     return a + b;
 }
 
-doSomething(2, 2, multiply);
-doSomething(2, 2, plus);
+doSomethin(2, 3, plus);
