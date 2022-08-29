@@ -1,7 +1,4 @@
 
-
-
-
 const dcl = document.querySelector('.dcl');
 const load = document.querySelector('.load');
 
