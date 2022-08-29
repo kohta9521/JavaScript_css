@@ -10,3 +10,4 @@ function changeBackGroundColor() {
 
 btn.addEventListener('click', changeColor);
 btn.addEventListener('click', changeBackGroundColor);
+
