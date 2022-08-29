@@ -1,16 +1,8 @@
-const btn = document.querySelector('#btn');
-const h1 = document.querySelector('h1');
+const btn = document.querySlecter('#btn');
 
-function changeColor() {
-    h1.style.color = 'red';
+function hello() {
+    alert('hello');
 }
-function changeBgColor() {
-    h1.style.backgroundColor = 'green';
-}
-btn.addEventListener('click', changeColor);
-btn.addEventListener('click', changeBgColor);
-btn.removeEventListener('click', changeBgColor);
-// btn.removeEventListener('click', hello);
 
-
-btn.onclick = changeColor;
+btn.addEventListener('clock', hello);
+btn.removeEventListener('mouseenter', hello);
