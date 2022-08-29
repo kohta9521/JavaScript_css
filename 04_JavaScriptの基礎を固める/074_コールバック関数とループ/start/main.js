@@ -10,4 +10,9 @@ function log(val) {
     console.log(val);
 }
 
-forEach(arry, log);
+function double(val) {
+    val = val * 2;
+    log(val);
+}
+
+forEach(arry, double);
